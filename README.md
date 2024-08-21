@@ -4,7 +4,7 @@ A CLI snake game !
 <p><b>Build the game:</b></p>
 
 ```bash
-mkdir builddir && meson setup -C builddir && meson compile -C builddir
+mkdir builddir && meson setup builddir && meson compile -C builddir
 ```
 
 <p><i>Enjoy ;-)</i></p>
