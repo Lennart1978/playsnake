@@ -2,9 +2,11 @@
 # playsnake
 A CLI snake game !
 <p><b>Build the game:</b></p>
-<p>mkdir builddir && meson setup builddir && cd builddir && meson compile</p>
-<p><b>Run (Linux):</b></p>
-<p>./playsnake</p>
+
+```bash
+mkdir builddir && meson setup -C builddir && meson compile -C builddir
+```
+
 <p><i>Enjoy ;-)</i></p>
 <p><b>Dependency:</b></p>
 ncurses
